@@ -7,13 +7,16 @@ module.exports = {
     "@storybook/addon-links",
     "@storybook/addon-essentials",
     "@storybook/addon-interactions",
-    '@storybook/preset-scss'
+    '@storybook/preset-scss',
+    '@chakra-ui/storybook-addon',
+    '@storybook/addon-actions'
   ],
   "framework": "@storybook/react",
   "core": {
     "builder": "@storybook/builder-vite"
   },
   "features": {
-    "storyStoreV7": true
+    "storyStoreV7": true,
+    "emotionAlias": false,
   }
 }

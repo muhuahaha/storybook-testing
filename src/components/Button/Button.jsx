@@ -13,7 +13,7 @@ function Button(props) {
 }
 
 Button.propTypes = {
-  children: PropTypes.string.isRequired,
+  children: PropTypes.node,
   variant: PropTypes.string.isRequired,
 };
 

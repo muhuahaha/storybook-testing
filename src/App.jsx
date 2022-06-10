@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import ButtonWeb from './components/ButtonWeb/ButtonWeb';
+// import { Danger } from './components/ChakraButton/ChakraButton.stories';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -14,6 +16,22 @@ function App() {
           <button type="button" onClick={() => setCount((count) => count + 1)}>
             count is: {count}
           </button>
+        </p>
+        <p>
+          <ButtonWeb
+            size="lg"
+            label="Hallo asdYo"
+            color="white"
+            backgroundColor="red"
+          />
+        </p>
+        <p>
+          <ButtonWeb
+            label="Hallo Yo Green"
+            color="white"
+            size="lg"
+            backgroundColor="green"
+          />
         </p>
         <p>
           Edit <code>App.jsx</code> and save to test HMR updates.

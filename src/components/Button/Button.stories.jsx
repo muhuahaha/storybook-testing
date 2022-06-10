@@ -26,13 +26,13 @@ PrimaryA.args = {
 export const SecondaryA = Template.bind({});
 SecondaryA.args = {
   variant: 'secondary',
-  // children: 'Secondary Args',
+  children: 'Secondary Args',
 };
 
 export const SuccessA = Template.bind({});
 SuccessA.args = {
   variant: 'success',
-  // children: 'Success Args',
+  children: 'Success Args',
 };
 
 export const DangerA = Template.bind({});
